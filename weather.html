@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Harorat tekshiruvi</h1>
+    
+    {% if temperature <= 0 %}
+        <h2>Sovuq</h2>
+    {% elif temperature <= 20 %}
+        <h2>Iliq</h2>
+    {% else %}
+        <h2>Issiq</h2>
+    {% endif %}
+</body>
+</html>
